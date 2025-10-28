@@ -4,7 +4,7 @@ from telebot import types
 from dotenv import load_dotenv
 
 load_dotenv()
-TG_TOKEN = os.getenv("TG_TOKEN") or TG_TOKEN=8126233300:AAGQKXldEUV3GlUljhV51ZBzYy3wwPd-bM8
+TG_TOKEN = os.getenv("TG_TOKEN")
 bot = telebot.TeleBot(TG_TOKEN)
 STATE = {}
 
