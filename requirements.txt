@@ -1,0 +1,5 @@
+Flask==3.0.3
+pyTelegramBotAPI==4.18.1
+facebook-business==20.0.3
+python-dotenv==1.2.1
+requests==2.32.3
